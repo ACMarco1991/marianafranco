@@ -92,15 +92,18 @@ body {
 
 .flag {
     font-size: 1.2rem;
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-variant: normal;
+    text-rendering: auto;
 }
 
 /* Header Section */
 #psicologa {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 60px 0;
-    border-radius: 20px;
-    margin-bottom: 30px;
+    padding: 60px 20px;
+    border-radius: 15px;
+    margin: 30px 0;
 }
 
 #psicologa .section-content {
@@ -121,6 +124,11 @@ body {
 
 .header-title:first-of-type {
     white-space: nowrap;
+    margin-bottom: 12px;
+}
+
+.header-title:nth-of-type(2) {
+    margin-bottom: 6px;
 }
 
 .header-image {
@@ -135,18 +143,19 @@ body {
 
 .header-crp {
     font-size: 1rem;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
     opacity: 0.9;
 }
 
 .header-subtitle {
     font-size: 1.1rem;
+    margin-bottom: 6px;
     opacity: 0.9;
 }
 
 .header-image img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid white;
@@ -275,6 +284,13 @@ body {
     text-decoration: underline;
 }
 
+.whatsapp-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
 .contact-note {
     margin-top: 20px;
     padding-top: 15px;
@@ -311,7 +327,7 @@ body {
 }
 
 .hamburger.active span:nth-child(1) {
-    transform: rotate(45deg) translate(8px, 8px);
+    transform: rotate(45deg) translate(2px, 10px);
 }
 
 .hamburger.active span:nth-child(2) {
@@ -319,7 +335,7 @@ body {
 }
 
 .hamburger.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(8px, -8px);
+    transform: rotate(-45deg) translate(1px, -10px);
 }
 
 /* Responsivo */
@@ -375,7 +391,7 @@ body {
     }
 
     .menu.active {
-        max-height: 300px;
+        max-height: 400px;
     }
 
     .menu-link {
